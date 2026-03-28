@@ -9,7 +9,8 @@ public class EmpDriver1 {
 		Emp1 e2=new Emp1(2,"Naj",27);
 		Emp1 e3=new Emp1(3,"Nagma",30);
 		Emp1 e4=new Emp1(4,"Chand",28);
-		
+		Emp1 e5=new Emp1(4,"Chand",28);
+//		 hello
 		Emp1[] e= {e1,e2,e3,e4};
 		Arrays.sort(e);
 		for(Emp1 emp:e)
